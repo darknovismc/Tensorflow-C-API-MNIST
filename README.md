@@ -1,7 +1,8 @@
 # Tensorflow-C-API-MNIST
-Console application written in C++ in Visual Studio 2010. It uses tensorflow C API to learn from MNIST handwritten 60000 image database
-and then predict 10000 images category.
-Use:
+Console application written in C++ in Visual Studio 2010. 
+It uses tensorflow C API to learn from MNIST handwritten 60000 image databaseand then predict 10000 images category.
+
+Usage:
 1.Download the database itself from : http://yann.lecun.com/exdb/mnist/ and extract next to the project
 2.Install Tensorflow C api (tested on versions 2.8.0 and 2.9.0) either CPU  or a GPU versions.
 3.Copy tensorflow.lib file to Microsoft Visual Studio\VC\lib\amd64 
