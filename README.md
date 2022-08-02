@@ -20,3 +20,5 @@ void TensorflowModel::Train(const float*inputData,const float*targetData,int bat
 void TensorflowModel::Predict(const float*inputData,const float*targetData) to feedforward the data 
 void TensorflowModel::Checkpoint(int type) to save or load model weights  
 TensorFlowTest.cpp - main console application to test all the functionality 
+
+I used version 2.8.0 so if there are any warning/compilation error please replace tensorflow folder with the recent header files.
